@@ -1,0 +1,7 @@
+<launch>
+    <!-- Set the takeoff height parameter -->
+    <param name="takeoff_height" value="3.0" />
+
+    <!-- Run the drone node -->
+    <node pkg="px4_offboard_py" type="drone.py" name="drone_node" output="screen" />
+</launch>
